@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bba953b077.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <title>Doggie Day Spaw Booking</title>
+    <figure class="audio"><figcaption>StockTune-Whispers of Serene Waters</figcaption><audio controls autoplay>
+        <source src="/audio/StockTune-Whispers Of Serene Waters_1719594645.mp3" >
+    </audio></figure>
+  
+</head>
+<body>
+    
+    <header>
+        <div class="topBar">
+            <div class="topBarItem"><i class="fa-solid fa-paw fa-lg"></i> <button id="frenchBtn"><a href="#">French</a></button> / <button id="englishBtn"><a href="#">English</a> </button></div>
+            <div class="topBarItem"><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram fa-lg"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-lg"></i></a></div>
+            <div class="topBarItem"><i class="fa-solid fa-square-phone-flip fa-lg"></i> 1-800-222-SPAW</div>
+        </div>
+
+        <div class="headerBox">
+            <div class="headerBoxItem"><img class="slideinleft" id="bubbaBath" src="/images/Bubba_bath.JPG"> </div>
+            <div class="headerBoxItem"><h1 id="title" >DOGGIE <br> DAY <br> SPAW</h1></div>
+            <div class="headerBoxItem" id="paw"><i class="fa-solid fa-paw fa-10x"></i></div>
+        </div>
+        
+
+        <nav class="navBox">
+            <button id="fetch">
+                <a href="./index.html" target="_blank">Fetch</a>
+            </button>
+            <button id="services">
+                <a href="./services.html" target="_blank">Services</a>
+            </button>
+            <button id="booking">
+                <a href="./booking.html" target="_blank">Book Appointment</a>
+            </button>
+            <div id="rainbowPaws">
+                <i class="fa-solid fa-paw fa-beat-fade fa-2x" style="color: #f40000;"></i>&nbsp;&nbsp;
+                <i class="fa-solid fa-paw fa-beat-fade fa-2x" style="color: #ff5500;"></i>&nbsp;&nbsp;
+                <i class="fa-solid fa-paw fa-beat-fade fa-2x" style="color: #ffef12;"></i>&nbsp;&nbsp;
+                <i class="fa-solid fa-paw fa-beat-fade fa-2x" style="color: #00ff11;"></i>&nbsp;&nbsp;
+                <i class="fa-solid fa-paw fa-beat-fade fa-2x" style="color: #0040ff;"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="bookingBox">
+            <div class="bookingItem">
+                <img id="bookingImg" src="/images/spaw_day.jpg">
+                <h1 id="bookOnlineTitle">Book a Spaw Day Online!</h1>
+                <form class="form2" id="appointmentForm">
+                    <label id="labelCustomerName">Name</label>
+                    <input type="text" id="customerName" style="border-radius: 60px;">
+                    <br>
+                    <label id="labelCustomerNumber">Phone Number</label>
+                    <input type="number" id="customerNumber" style="border-radius: 60px;">
+                    <br>
+                    <label id="labelCustomerEmail">Email</label>
+                    <input type="email" id="customerEmail" style="border-radius: 60px;">
+                    <br>
+                    <br>
+                    <label id="labelDogsName">Dog's Name</label>
+                    <input type="text" id="dogsName" style="border-radius: 60px;">
+                    <br>
+                    <label id="labelDogsBreed">Dog's Breed</label>
+                    <input type="text" id="dogsBreed" style="border-radius: 60px;">
+                    <br>
+                    <br>
+                    <label id="labelServiceType">Select a Service</label>
+                    <br>
+                    <label id="bathAndBrushLabel">
+                    <input type="checkbox" id="bathAndBrush" style="border-radius: 60px;"> Bath & Brush
+                    </label>
+                    <label id="fullGroomLabel">
+                        <input type="checkbox" id="fullGroom" style="border-radius: 60px;"> Full Groom
+                    </label>
+                    <br>
+                    <br>
+                    <label id="labelAppt">Select a Date & Time</label>
+                    <br>
+                    <input type="datetime-local" id="appt" style="border-radius: 60px; width: 180px;">
+                    <br>
+                    <br>
+                    <label id="labelLeaveMessage">Leave a Message (Optional)</label>
+                    <textarea type="text" id="leaveMessage"></textarea>
+                    <br>
+                    <br>
+                    <button class="submitBtn" type="button" id="submitBtnBooking" style="border-radius: 60px;">Submit</button>
+                </form>
+                <p class="successMessage" id="bookingSuccessMessage">Your appointment has been saved!</p>
+                <p class="errorMessage" id="bookingErrorMessage">Please fill out all required fields.</p>
+            </div>
+        </div>
+
+        <div class="lineBar">
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+            <div class="lineBarItem">
+                <i class="fa-solid fa-paw fa-beat-fade fa-lg"></i>
+            </div>
+        </div>
+
+        
+        <div class="contactBox">
+            <div class="contactBoxItem">
+                <h2 id="locationTitle">
+                    Location
+                </h2>
+                <p id="locationText">
+                    123 Water Street <br>
+                    Saint John's, NL <br>
+                    A1C 1A5
+                </p>
+                <h2 id="hoursTitle">
+                    Hours of Operation
+                </h2>
+                <p id="hoursText">
+                    Monday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8am - 5pm <br>
+                    Tuesday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8am - 5pm <br>
+                    Wednesday &nbsp;&nbsp;&nbsp; 10am - 7pm <br>
+                    Thursday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed <br>
+                    Friday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9am - 6pm  <br>
+                    Saturday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10am - 7pm  <br>
+                    Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Closed <br>
+                </p>
+                <h2 id="phoneTitle">
+                    Phone
+                </h2>
+                <p>
+                    1-800-222-7729(SPAW)
+                </p>
+                <h2 id="emailTitle">
+                    Email
+                </h2>
+                <p>
+                    doggiedayspaw@gmail.com
+                </p>
+            </div>
+            <div class="contactBoxItem">
+                <img id="map" src="/images/spaw_location.jpg">
+            </div>
+        </div>
+    </main>
+   
+<script src="/scripts/bookingScript.js"></script>
+</body>
+</html>

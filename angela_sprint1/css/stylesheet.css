@@ -1,0 +1,550 @@
+body {
+    background-color: rgba(188, 255, 227, 1);
+    font-family: 'Prosto One', sans-serif;
+}
+
+@keyframes slideinleft {
+    from {
+      transform: translateX(-500px);
+    }
+    to{
+      transform: translateX(0);
+    }
+  }
+
+.slideinleft {
+   animation: slideinleft 3s;
+}
+
+
+
+.topBar {
+    background-color: rgba(188, 255, 227, 1);
+    width: 900px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    font-size: 16pt;
+}
+
+.topBarItem {
+    margin: 0 20px;
+}
+
+#frenchBtn {
+    width: 100px;
+    font-size: 16pt;
+    background-color: black;
+    color: rgba(188, 255, 227, 1);
+    border-radius: 60px;
+}
+
+#englishBtn {
+    width: 100px;
+    font-size: 16pt;
+    background-color: black;
+    color: rgba(188, 255, 227, 1);
+    border-radius: 60px;
+}
+
+#frenchBtn a {
+    color: rgba(188, 255, 227, 1);
+}
+
+#frenchBtn a:visited {
+    color: rgba(188, 255, 227, 1);
+}
+
+
+#englishBtn a {
+    color: rgba(188, 255, 227, 1);
+}
+
+#englishBtn a:visited {
+    color: rgba(188, 255, 227, 1);
+}
+
+nav a {
+    color: black;
+}
+
+nav a:visited {
+    color: black;
+}
+
+.headerBox {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.headerBoxItem {
+    margin: 0 10px;
+}
+
+#bubbaBath {
+    margin-top: 4px;
+    width: 280px;
+    height: 280px;
+    border: 6px solid black;
+    border-radius: 60px;
+}
+
+#title {
+    font-size: 55px;
+    margin-top: 55px;
+}
+
+#paw {
+    margin-top: 80px;
+}
+
+.navBox {
+    background-color:rgba(188, 255, 227, 1);
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+}
+
+#fetch {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 16pt;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    margin-right: 20px;
+}
+
+#services {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 16pt;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    margin-right: 20px;
+}
+
+#booking {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 16pt;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    margin-right: 20px;
+}
+
+
+#rainbowPaws {
+    background-color: rgba(188, 255, 227, 1);
+    margin-top: 10px;
+}
+
+.bioBox {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.bioBoxItem {
+    margin: 0 10px;
+}
+
+#bioPic {
+    width: 220px;
+    height:250px;
+    border: 6px solid black;
+    border-radius: 60px;
+    margin-top: 120px;
+}
+
+#bioBlog {
+    margin-top: 110px;
+    font-size: larger;
+}
+
+.contactBox {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.contactBoxItem {
+    margin:0 20px;
+}
+
+.lineBar {
+    background-color: rgba(188, 255, 227, 1);
+    width: 1000px;
+    height: 15px;
+    display: flex;
+    justify-content:center;
+    margin: 20px auto;
+}
+
+.lineBarItem {
+    margin: 0 20px;
+}
+
+#map {
+    width: 640px;
+    height: 530px;
+}
+
+.reviewBox {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 750px;
+    display: flex;
+    justify-content:center;
+    margin: 20px auto;
+}
+
+.reviewBoxItem {
+    margin:0 20px;
+}
+
+
+.leaveReviewBox {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.leaveReviewItem {
+    margin: 0 20px;
+}
+
+#review {
+    width: 400px;
+    height: 150px;
+}
+
+.bottomBar {
+    background-color: rgba(188, 255, 227, 1);
+    width: 900px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    font-size: larger;
+}
+
+.bottomBarItem {
+    margin: 0 20px;
+}
+
+.submitBtn  {
+    color:rgba(0, 255, 194, 1);
+    background-color: black;
+    border-radius: 60px;
+    font-size: 16px;
+    width: 90px;
+}
+
+.submitBtn a{
+    color:rgba(188, 255, 227, 1);
+}
+
+.topOfPageBtn {
+    width: 200px;
+    height: 50px;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 6px solid black;
+    border-radius: 60px;
+    background-color: rgba(0, 255, 194, 1);
+}
+
+.copyright {
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:visited {
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.successMessage {
+    background-color: green;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: none;
+    border-radius: 60px;
+    width: 300px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-left: 80px;
+}
+
+.errorMessage {
+    background-color: red;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    display: none;
+    border-radius: 60px;
+    width:300px;
+    height: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-left: 80px;
+}
+
+.serviceBox1 {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.serviceItem {
+    margin: 0 20px;
+}
+
+.serviceTitle {
+    text-decoration:underline;
+    padding-top: 20px;
+}
+
+.serviceImg {
+    width: 200px;
+    height: 180px;
+    border: 6px solid black;
+    border-radius: 60px;
+    margin-left: 50px;
+}
+
+.serviceBox2 {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.serviceItem {
+    margin: 0 20px;
+}
+
+
+#bathImg {
+    margin-left:60px;
+    width: 400px;
+    border: 6px solid black;
+    border-radius: 60px;
+}
+
+.centerText1 {
+    margin-left: 190px;
+}
+
+.centerText2 {
+    margin-left: 140px;
+}
+
+.centerText3 {
+    margin-left: 45px;
+}
+
+#groomImg {
+    margin-left:60px;
+    width: 400px;
+    border: 6px solid black;
+    border-radius: 60px;
+}
+
+#video {
+    display: flex;
+    justify-content: center;
+}
+
+#bookApptBtn {
+    width: 400px;
+    height: 50px;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 6px solid black;
+    border-radius: 60px;
+    background-color: rgba(0, 255, 194, 1);
+}
+
+.bookingBox {
+    background-color: rgba(0, 255, 194, 1);
+    border: 6px solid black;
+    border-radius: 60px;
+    width: 1000px;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.bookingItem {
+    margin: 0 20px;
+}
+
+#bookingImg {
+    width: 250px;
+    height: 200px;
+    border: 6px solid black;
+    border-radius: 60px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#bookOnlineTitle {
+    text-decoration: underline;
+}
+
+.form2 {
+    font-size: larger;
+}
+
+#leaveMessage {
+    height: 150px;
+}
+
+ 
+@media (max-width: 1200px) {
+    .headerBox, .bioBox, .contactBox, .reviewBox, .leaveReviewBox, .serviceBox1, .serviceBox2, .bookingBox, .lineBar, .bottomBar, .topBar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .headerBox, .bioBox, .contactBox, .reviewBox, .leaveReviewBox, .serviceBox1, .serviceBox2, .bookingBox, .lineBar, .bottomBar, .topBar {
+        width: 95%;
+    }
+
+    #bubbaBath, #bookingImg, .serviceImg, #bioPic, #bathImg, #groomImg {
+        width: 90%;
+        height: auto;
+    }
+
+    #title {
+        font-size: 40px;
+    }
+
+    .navBox {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #fetch, #services, #booking {
+        margin: 10px 0;
+        padding: 10px;
+        width: 80%;
+    }
+
+    .topBar, .bottomBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topBarItem, .bottomBarItem {
+        margin: 10px 0;
+    }
+
+    .lineBarItem {
+        margin: 5px;
+    }
+
+    .successMessage, .errorMessage {
+        width: 80%;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .headerBox, .bioBox, .contactBox, .reviewBox, .leaveReviewBox, .serviceBox1, .serviceBox2, .bookingBox, .lineBar, .bottomBar, .topBar {
+        width: 100%;
+    }
+
+    #bubbaBath, #bookingImg, .serviceImg, #bioPic, #bathImg, #groomImg {
+        width: 100%;
+        height: auto;
+    }
+
+    #title {
+        font-size: 30px;
+    }
+
+    .navBox {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #fetch, #services, #booking {
+        margin: 10px 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .topBar, .bottomBar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topBarItem, .bottomBarItem {
+        margin: 10px 0;
+    }
+
+    .lineBarItem {
+        margin: 5px;
+    }
+}
